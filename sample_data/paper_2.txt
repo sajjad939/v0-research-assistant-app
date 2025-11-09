@@ -1,0 +1,12 @@
+Title: Efficient Training of Large Language Models
+
+Authors: Chen, L., Park, K.
+Year: 2023
+
+Abstract: We present techniques to reduce LLM training time by 40% through optimized data loading and gradient checkpointing. Evaluated on GPT-style models with 1.3B to 13B parameters.
+
+Methodology: Distributed training across 512 TPUs with optimized communication patterns. Datasets tested: WikiText-103, C4 corpus. Primary metrics: Training throughput (tokens/sec), convergence speed.
+
+Experimental Results: Achieved 2.8x speedup on data loading pipeline. Gradient checkpointing reduced memory by 35%. Training time for 13B model: 2.5 days (vs 4.2 days baseline). BLEU scores on downstream tasks remain comparable to baseline.
+
+Discussion: Efficiency gains are platform-dependent. Findings validate importance of system-level optimization in LLM training workflows.

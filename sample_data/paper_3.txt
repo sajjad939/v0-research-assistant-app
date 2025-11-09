@@ -1,0 +1,12 @@
+Title: Multimodal Learning with Vision and Language Integration
+
+Authors: Gupta, R., Lee, S., Thompson, M.
+Year: 2024
+
+Abstract: We propose integrated vision-language framework for image understanding. Evaluation on COCO, Flickr30K, and ImageNet datasets demonstrates superior performance.
+
+Approach: LSTM-based visual encoder combined with transformer for language modeling. Training data: 2M image-caption pairs. Evaluation metrics: CIDEr, BLEU-4, METEOR, ROUGE-L scores.
+
+Outcomes: Achieved state-of-the-art on image captioning task (CIDEr: 133.8 vs previous 128.3). Zero-shot transfer to novel object categories improves by 12%. Cross-modal retrieval accuracy: 78.4% mAP.
+
+Future Directions: Extend to video understanding and temporal reasoning. Investigate few-shot learning in cross-modal scenarios.
